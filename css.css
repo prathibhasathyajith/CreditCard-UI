@@ -4,8 +4,18 @@
     font-weight: normal;
     font-style: normal;
 }
+#textFieldNum{
+    background-color: rgba(0,0,0,0);
+    border: 0px solid black;
+}
 #cardNum{
-    font-family: 'OCR'
+    margin: 100px 50px;
+    font-family: 'OCR';
+    font-size: 20px;
+    font-weight: normal;
+    color: #2c3e50;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px white;
 }
 .card-1 {
     margin: 100px 200px;
@@ -17,7 +27,7 @@
 }
 #card_f1 {
     width: 100%;
-    height: 10px;
+    height: 20px;
     background-color: #ecf0f1;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
