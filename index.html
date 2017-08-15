@@ -18,16 +18,14 @@
 
 
         function slide() {
-            document.getElementById("cardFrontBack").style.animation = "rotate 0.5s ease-in 0s forwards";
-            document.getElementById("cardBackBack").style.animation = "rotate2 0.5s ease-out 0.5s forwards";
-
+            $('#cardFrontBack').css({'animation': 'rotate 0.5s ease-in 0s forwards'});
+            $('#cardBackBack').css({'animation': 'rotate2 0.5s ease-out 0.5s forwards'});
         }
 
         function slideback() {
+            $('#cardFrontBack').css({'animation': 'rotate2 0.5s ease-out 0.5s forwards'});
+            $('#cardBackBack').css({'animation': 'rotate 0.5s ease-in 0s forwards'});
             document.getElementById("cardFrontBack").style.transform = "rotateY(90deg)";
-            document.getElementById("cardFrontBack").style.animation = "rotate2 0.5s ease-out 0.5s forwards";
-            document.getElementById("cardBackBack").style.animation = "rotate 0.5s ease-in 0s forwards";
-
         }
 
     </script>
