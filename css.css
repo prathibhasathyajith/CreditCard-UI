@@ -4,12 +4,12 @@
     font-weight: normal;
     font-style: normal;
 }
-#textFieldNum{
-    background-color: rgba(0,0,0,0);
+#textFieldNum {
+    background-color: rgba(0, 0, 0, 0);
     border: 0px solid black;
 }
-#cardNum{
-    margin: 100px 50px;
+#cardNum {
+    margin: 20px 50px;
     font-family: 'OCR';
     font-size: 20px;
     font-weight: normal;
@@ -22,13 +22,13 @@
     width: 350px;
     height: 210px;
     border-radius: 15px;
-    background-color: #27ae60;
+    background-color: #f1c40f;
     position: absolute;
 }
 #card_f1 {
     width: 100%;
-    height: 20px;
-    background-color: #ecf0f1;
+    height: 100px;
+    background-color: #95a5a6;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -51,10 +51,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-#cardFrontBack {
-    /*    animation: rotate 1s ease;*/
-    /*    animation-fill-mode: forwards;*/
-}
+#cardFrontBack {}
 @keyframes rotate {
     0% {
         transform: rotateY(0deg);
@@ -64,12 +61,8 @@
     }
 }
 #cardBackBack {
-/*    border: 1px solid #2c3e50;*/
     background-color: #2c3e50;
     transform: rotateY(90deg);
-    /*    animation: rotate2 1s ease;*/
-    /*    animation-delay: 1s;*/
-    /*    animation-fill-mode: forwards;*/
 }
 @keyframes rotate2 {
     0% {
