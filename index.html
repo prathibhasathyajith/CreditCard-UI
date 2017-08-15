@@ -4,18 +4,19 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="css.css">
     <script>
-        function slide(){
+        function slide() {
             document.getElementById("cardFrontBack").style.animation = "rotate 0.5s ease-in 0s forwards";
-            document.getElementById("cardBackBack").style.animation = "rotate2 0.5s ease-in 0.5s forwards";
+            document.getElementById("cardBackBack").style.animation = "rotate2 0.5s ease-out 0.5s forwards";
 
         }
-        function slideback(){
+
+        function slideback() {
             document.getElementById("cardFrontBack").style.transform = "rotateY(90deg)";
-            document.getElementById("cardFrontBack").style.animation = "rotate2 0.5s ease-in 0.5s forwards";
+            document.getElementById("cardFrontBack").style.animation = "rotate2 0.5s ease-out 0.5s forwards";
             document.getElementById("cardBackBack").style.animation = "rotate 0.5s ease-in 0s forwards";
 
         }
-        
+
     </script>
 </head>
 
@@ -24,15 +25,23 @@
         <div class="main-content">
             <div class="col-md-12">
                 <div class="text-center">Card Details</div>
-                <div class="col-md-12 card-1" id="cardFrontBack">front</div>
-                <div class="col-md-12 card-1" id="cardBackBack">back</div>
+                <div class="card-1" id="cardFrontBack">
+                    <div id="card_f1"></div>
+                    <div id="cardNum">4233 3333 2342 3434</div>
+                </div>
+                <div class="card-1" id="cardBackBack">
+                    <div id="card_b1"></div>
+                    <div id="card_b2"></div>
+                    <div id="card_b3"></div>
+                </div>
                 <div class="">
-                    <input type="button" value="BackSide" id="buttonslide" onclick="slide()"/>
-                </div><div class="">
-                    <input type="button" value="FrontSide" id="buttonslideBack" onclick="slideback()"/>
+                    <input type="button" value="BackSide" id="buttonslide" onclick="slide()" />
+                </div>
+                <div class="">
+                    <input type="button" value="FrontSide" id="buttonslideBack" onclick="slideback()" />
                 </div>
             </div>
-            
+
         </div>
     </div>
 
