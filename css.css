@@ -9,13 +9,84 @@
     border: 0px solid black;
 }
 #cardNum {
-    margin: 20px 50px;
+    margin: 50px 60px;
     font-family: 'OCR';
     font-size: 20px;
     font-weight: normal;
     color: #2c3e50;
     letter-spacing: 1px;
     text-shadow: 1px 1px 3px white;
+}
+#chip{
+    width: 45px;
+    height: 40px;
+    background-color: #f39c12;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 7px;
+    position: fixed;
+    box-shadow: inset 0 0 10px #34495e;
+/*    border: 1px solid #34495e*/
+}
+#chipLine1{
+    width: 13px;
+    height: 2px;
+    background-color: #34495e;
+    margin-top: 10px;
+    position: inherit;
+}
+#chipLine2{
+    width: 13px;
+    height: 2px;
+    background-color: #34495e;
+    margin-top: 19px;
+    position: inherit;
+}
+#chipLine3{
+    width: 13px;
+    height: 2px;
+    background-color: #34495e;
+    margin-top: 29px;
+    position: inherit;
+}
+#chipLineLong1{
+    width: 2px;
+    height: 40px;
+    background-color: #34495e;
+    margin-left: 13px;
+    position: inherit;
+}
+#chipLine1R{
+    width: 13px;
+    height: 2px;
+    background-color: #34495e;
+    margin-top: 10px;
+    margin-left: 32px;
+    position: inherit;
+}
+#chipLine2R{
+    width: 13px;
+    height: 2px;
+    background-color: #34495e;
+    margin-top: 19px;
+    margin-left: 32px;
+    position: inherit;
+}
+#chipLine3R{
+    width: 13px;
+    height: 2px;
+    background-color: #34495e;
+    margin-top: 29px;
+    margin-left: 32px;
+    position: inherit;
+}
+#chipLineLong1R{
+    width: 2px;
+    height: 30px;
+    background-color: #34495e;
+    margin-left: 30px;
+    margin-top: 10px;
+    position: inherit;
 }
 .card-1 {
     margin: 100px 200px;
@@ -27,7 +98,7 @@
 }
 #card_f1 {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #95a5a6;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
