@@ -8,13 +8,48 @@
     background-color: rgba(0, 0, 0, 0);
     border: 0px solid black;
 }
+#textFieldExDate {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid black;
+    width: 70px;
+    font-weight: bold;
+}
+#validThru1{
+    margin-top: 2px;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+    color: #2c3e50;
+    position: fixed;
+    margin-left: -25px;
+    text-shadow: 0px 0px 1px black;
+}
+#validThru2{
+    margin-top: 10px;
+    margin-left: -25px;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+    color: #2c3e50;
+    position: fixed;
+    text-shadow: 0px 0px 1px black;
+}
 #cardNum {
-    margin: 50px 60px;
+    margin: 50px 52px 0;
     font-family: 'OCR';
     font-size: 20px;
     font-weight: normal;
     color: #2c3e50;
     letter-spacing: 1px;
+    text-shadow: 1px 1px 3px white;
+}
+#cardExDate{
+    margin: 0px 120px 0;
+    font-family: 'OCR';
+    font-size: 15px;
+    font-weight: normal;
+    color: #2c3e50;
+    letter-spacing: 0px;
     text-shadow: 1px 1px 3px white;
 }
 #chip{
@@ -88,6 +123,10 @@
     margin-top: 10px;
     position: inherit;
 }
+.type{
+    position: fixed;
+    margin: 5px 214px 0;
+}
 .card-1 {
     margin: 100px 200px;
     width: 350px;
@@ -95,6 +134,7 @@
     border-radius: 15px;
     background-color: #f1c40f;
     position: absolute;
+/*    border-right: 2px solid #34495e;*/
 }
 #card_f1 {
     width: 100%;
@@ -122,7 +162,8 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-#cardFrontBack {}
+#cardFrontBack {
+}
 @keyframes rotate {
     0% {
         transform: rotateY(0deg);
