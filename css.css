@@ -22,7 +22,7 @@
     color: #2c3e50;
     position: fixed;
     margin-left: -25px;
-    text-shadow: 0px 0px 1px black;
+    text-shadow: 0px 0px 0px black;
 }
 #validThru2{
     margin-top: 10px;
@@ -32,7 +32,7 @@
     font-weight: bold;
     color: #2c3e50;
     position: fixed;
-    text-shadow: 0px 0px 1px black;
+    text-shadow: 0px 0px 0px black;
 }
 #cardNum {
     margin: 50px 52px 0;
