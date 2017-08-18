@@ -13,17 +13,17 @@
                 creditCard: true,
                 onCreditCardTypeChanged: function(type) {
                     if (type == "visa") {
-                        document.querySelector('.type').innerHTML = '<img id="" src="pm/single/visa.svg" width="70" height="auto" />';
+                        document.querySelector('.type').innerHTML = '<img id="cpmImg" src="pm/single/visa.svg" width="70" height="auto" />';
                     } else if (type == "amex") {
-                        document.querySelector('.type').innerHTML = '<img id="" src="pm/single/amex.svg" width="70" height="auto" />';
+                        document.querySelector('.type').innerHTML = '<img id="cpmImg" src="pm/single/amex.svg" width="70" height="auto" />';
                     } else if (type == "diners") {
-                        document.querySelector('.type').innerHTML = '<img id="" src="pm/single/diners.svg" width="70" height="auto" />';
+                        document.querySelector('.type').innerHTML = '<img id="cpmImg" src="pm/single/diners.svg" width="70" height="auto" />';
                     } else if (type == "jcb") {
-                        document.querySelector('.type').innerHTML = '<img id="" src="pm/single/jcb.svg" width="70" height="auto" />';
+                        document.querySelector('.type').innerHTML = '<img id="cpmImg" src="pm/single/jcb.svg" width="70" height="auto" />';
                     } else if (type == "mastercard") {
-                        document.querySelector('.type').innerHTML = '<img id="" src="pm/single/mastercard.svg" width="70" height="auto" />';
+                        document.querySelector('.type').innerHTML = '<img id="cpmImg" src="pm/single/mastercard.svg" width="70" height="auto" />';
                     } else if (type == "discover") {
-                        document.querySelector('.type').innerHTML = '<img id="" src="pm/single/discover.svg" width="70" height="auto" />';
+                        document.querySelector('.type').innerHTML = '<img id="cpmImg" src="pm/single/discover.svg" width="70" height="auto" />';
                     } else {
                         document.querySelector('.type').innerHTML = "";
                     }
@@ -95,7 +95,9 @@
                     <div class="card-1" id="cardBackBack">
                         <div id="card_b1"></div>
                         <div id="card_b2"></div>
-                        <div id="card_b3"></div>
+                        <div id="card_b3">
+                            <input type="text" placeholder="000" class="text-center" id="textFieldSecCode" required/>
+                        </div>
                     </div>
                     <div class="">
                         <input type="button" value="BackSide" id="buttonslide" onclick="slide()" />

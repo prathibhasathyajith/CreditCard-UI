@@ -11,8 +11,9 @@
 #textFieldExDate {
     background-color: rgba(0, 0, 0, 0);
     border: 0px solid black;
-    width: 70px;
-    font-weight: bold;
+    width: 65px;
+    font-weight: normal;
+    color: #ecf0f1;
 }
 #validThru1{
     margin-top: 2px;
@@ -61,7 +62,7 @@
     border-radius: 7px;
     position: fixed;
     box-shadow: inset 0 0 10px #34495e;
-/*    border: 1px solid #34495e*/
+/*    border: 1px solid #7f8c8d;*/
 }
 #chipLine1{
     width: 13px;
@@ -123,9 +124,19 @@
     margin-top: 10px;
     position: inherit;
 }
+#cpmImg{
+    height: 39px;
+    margin: -6px;
+    padding: 0;
+    width: 96px;
+    border-top-left-radius: 20px;
+}
 .type{
     position: fixed;
     margin: 5px 214px 0;
+    background-color: #ecf0f1;
+    border-top-left-radius: 16px; 
+    border-bottom-left-radius: 16px; 
 }
 .card-1 {
     margin: 100px 200px;
@@ -136,7 +147,7 @@
 /*    background-color: #f1c40f;*/
     background: linear-gradient(to right, rgba(44,62,80,1) 0%,rgba(52,73,94,1) 100%);
     position: absolute;
-/*    border-right: 2px solid #34495e;*/
+    border-right: 2px solid #34495e;
 }
 #card_f1 {
     width: 100%;
