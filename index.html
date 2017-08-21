@@ -33,6 +33,9 @@
             new Cleave("#textFieldExDate", {
                 date: true,
                 datePattern: ['m', 'y']
+            });new Cleave("#textFieldSecCode", {
+                blocks: [3],
+                numericOnly:true
             });
         });
 
@@ -80,14 +83,14 @@
                             <div id="chipLineLong1R"></div>
                         </div>
                         <div id="cardNum">
-                            <input type="text" placeholder="Enter Card Number" class="text-center" id="textFieldNum" required/>
+                            <input type="text" placeholder="Enter Card Number" title="Card Number" class="text-center" id="textFieldNum"/>
                             <div class="type"></div>
                         </div>
 
                         <div id="cardExDate">
                             <label id="validThru1">VALID</label>
                             <label id="validThru2">THRU</label>
-                            <input type="text" placeholder="MM/YY" class="text-center" id="textFieldExDate" required/>
+                            <input type="text" placeholder="MM/YY" class="text-center" title="Expiry Date" id="textFieldExDate"/>
                         </div>
 
                     </div>
@@ -96,7 +99,9 @@
                         <div id="card_b1"></div>
                         <div id="card_b2"></div>
                         <div id="card_b3">
-                            <input type="text" placeholder="000" class="text-center" id="textFieldSecCode" required/>
+                            <div id="signature">Your Signature</div>
+                            <input type="text" placeholder="000" title="Security Code" class="text-center" id="textFieldSecCode"/>
+                            <div id="signatureText">AUTHORIZED SIGNATURE - NOT VALID UNLESS SIGNED</div>
                         </div>
                     </div>
                     <div class="">
