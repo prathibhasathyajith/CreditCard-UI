@@ -18,3 +18,24 @@
     margin-left: 319px;
     border-top-right-radius: 12px;
 }
+
+#shineBack{
+    margin-top: 2px;
+    width: 60px;
+    height: 205px;
+    background: radial-gradient(ellipse at 120% -72%, rgba(255, 255, 255, 1) 43%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 73%);
+    position: absolute;
+    margin-left: 288px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    opacity: 0.5;
+}
+#shineBack2 {
+    margin-top: 4px;
+    width: 27px;
+    height: 66px;
+    background: radial-gradient(ellipse at 120% -42%, rgba(255, 255, 255, 1) 59%, rgba(255, 255, 255, 0.5) 55%, rgba(255, 255, 255, 0) 73%);
+    position: absolute;
+    margin-left: 319px;
+    border-top-right-radius: 12px;
+}
